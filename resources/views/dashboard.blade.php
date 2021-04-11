@@ -16,7 +16,7 @@
     </div>
 </x-app-layout> --}}
 @extends('layouts.dashboard')
-@section('content-dahboard')
+{{-- @section('content-dahboard')
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -754,4 +754,4 @@
     <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>    
-@endsection
+@endsection --}}

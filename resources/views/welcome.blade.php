@@ -165,7 +165,7 @@ https://templatemo.com/tm-538-digital-trend
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-              <i class="fa-laravel"></i>
+              <i class="fa fa-github-alt"></i>
               Belajar Laravel
             </a>
 
@@ -177,13 +177,13 @@ https://templatemo.com/tm-538-digital-trend
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link smoothScroll">Studio</a>
+                        <a href="#about" class="nav-link smoothScroll">Laravel</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link smoothScroll">Our Works</a>
+                        <a href="#project" class="nav-link smoothScroll">Stackoverflow</a>
                     </li>
                     <li class="nav-item">
-                        <a href="blog.html" class="nav-link">Blog</a>
+                        <a href="#blog" class="nav-link smoothScroll">Github</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('login') }}" class="nav-link contact">Sign in</a>
@@ -205,11 +205,11 @@ https://templatemo.com/tm-538-digital-trend
                         <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
                               <div class="hero-text">
 
-                                   <h1 class="text-white" data-aos="fade-up">We are ready for your digital marketing</h1>
+                                   <h1 class="text-white" data-aos="fade-up">Belajar laravel bareng-bareng sampe</h1>
 
                                    <a href="contact.html" class="custom-btn btn-bg btn mt-3" data-aos="fade-up" data-aos-delay="100">Let us discuss together!</a>
 
-                                   <strong class="d-block py-3 pl-5 text-white" data-aos="fade-up" data-aos-delay="200"><i class="fa fa-phone mr-2"></i> +99 080 070 4224</strong>
+                                   <strong class="d-block py-3 pl-5 text-white" data-aos="fade-up" data-aos-delay="200"><i class="fa fa-telegram"></i> t.me/BelajarLaravel</strong>
                               </div>
                         </div>
 
@@ -346,7 +346,7 @@ https://templatemo.com/tm-538-digital-trend
 
 
      <!-- TESTIMONIAL -->
-     <section class="testimonial section-padding">
+     <section class="testimonial section-padding" id ="blog">
           <div class="container">
                <div class="row">
 

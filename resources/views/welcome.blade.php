@@ -134,7 +134,7 @@
 <html lang="en">
 <head>
 
-     <title>Digital Trend HTML Template</title>
+     <title>Belajar Laravel Bareng-Bareng</title>
 <!--
 
 DIGITAL TREND

@@ -15,9 +15,10 @@
         </div>
     </div>
 </x-app-layout> --}}
-@extends('layouts.dashboard')
 
-@section('content-dashboard')
+@extends('layouts.dashboardPage')
+
+@section('dashboard')
 <div class="container-fluid">
 
     <!-- Page Heading -->
@@ -345,5 +346,6 @@
         </div>
     </div>
 </div>
-    
+<!-- /.container-fluid -->
 @endsection
+

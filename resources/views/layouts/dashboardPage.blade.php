@@ -61,15 +61,15 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Custom 4 Page</span>
+                    <span> 4 Halaman</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Page:</h6>
-                        <a class="collapse-item" href="buttons.html">Page 1</a>
-                        <a class="collapse-item" href="cards.html">Page 2</a>
-                        <a class="collapse-item" href="buttons.html">Page 3</a>
-                        <a class="collapse-item" href="cards.html">Page 4</a>
+                        <h6 class="collapse-header">Custom Halaman:</h6>
+                        <a class="collapse-item" href="{{ route('halaman1') }}">Halaman 1</a>
+                        <a class="collapse-item" href="{{ route('halaman2') }}">Halaman 2</a>
+                        <a class="collapse-item" href="{{ route('halaman3') }}">Halaman 3</a>
+                        <a class="collapse-item" href="{{ route('halaman4') }}">Halaman 4</a>
 
                     </div>
                 </div>
@@ -368,8 +368,11 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-               @yield('content-dashboard')
-                <!-- /.container-fluid -->
+                @yield('dashboard')
+                @yield('content-halaman1')
+                @yield('content-halaman2')
+                @yield('content-halaman3')
+                @yield('content-halaman4')
 
             </div>
             <!-- End of Main Content -->

@@ -342,7 +342,6 @@
                         Bootstrap framework, especially the utility classes.</p>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

@@ -22,19 +22,19 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/dashboard/halaman1', function () {
-    return view ('halaman1');
+    return view ('dashboardPage.halaman1');
 })-> middleware(['auth'])->name('halaman1');
 
 Route::get('/dashboard/halaman2', function () {
-    return view ('halaman2');
+    return view ('dashboardPage.halaman2');
 })-> middleware(['auth'])->name('halaman2');
 
 Route::get('/dashboard/halaman3', function () {
-    return view ('halaman3');
+    return view ('dashboardPage.halaman3');
 })-> middleware(['auth'])->name('halaman3');
 
 Route::get('/dashboard/halaman4', function () {
-    return view ('halaman4');
+    return view ('dashboardPage.halaman4');
 })-> middleware(['auth'])->name('halaman4');
 
 
